@@ -18,5 +18,3 @@ response = urllib.request.urlopen(locations_api)
 location_raw = pd.read_xml(response)
 
 print(location_raw)
-
-
