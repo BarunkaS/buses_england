@@ -7,7 +7,7 @@ Project works with open bus data from England.
 ## Next steps
 
 1. Collect 24hours loactions of data for COTS buses
-    - Crete S3 bucket
+    - Create S3 bucket
     - Script to extract it
     - Save to bucket
 
