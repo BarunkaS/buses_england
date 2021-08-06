@@ -1,4 +1,4 @@
-# Work in progress...
+# Very, very much WORK IN PROGRESS...
 
 ## Quick intro
 
@@ -7,15 +7,25 @@ Project works with open bus data from England.
 ## Next steps
 
 1. Collect 24hours loactions of data for COTS buses
-    - Create S3 bucket
-    - Script to extract it
-    - Save to bucket
+    - DONE - Crete S3 bucket
+    - DONE - Script to extract it
+    - DONE - Save to local
+    - DONE - Open file from local for further manipulation
+    - DONE - Save to S3
+    - DONE - Open from S3
+    - DONE - Cycle that is going to run it for an hour
+    - DONE - Save every file into S3 and local
+    - **TO-DO LATER:**Deploy to EC2 to run for 24hrs
 
-2. Consolidate GTFS West Middlands data for COTS buses.
+2. Transform locations
+    - Extract line and location from the txt xml file
+    - **TO-DO LATER:**Extract bus/line positions for the 24hours
+
+3. Consolidate GTFS West Middlands data for COTS buses.
     - Data description see below.
     - Save on local for now.
     - Timetable data seems to be usable from the GTFS format available here: <https://data.bus-data.dft.gov.uk/timetable/download/>
-3. Extract bus/line positions for the 24hours
+
 4. Match with schedule
     - Output should look something like: line, specific service, stop (name, lat,lon, sequence), expected time, real time, delay
 
