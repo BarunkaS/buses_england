@@ -1,0 +1,25 @@
+# all on local dev, security to be added upon deployment
+buses_rudbt:
+  outputs:
+
+    dev:
+      type: postgres
+      threads: 1 #how many DAGs can execute at the same time
+      host: localhost
+      port: 5432
+      user: barboraspacilova
+      pass: password
+      dbname: postgres
+      schema: public
+
+    prod:
+      type: postgres
+      threads: 1
+      host: localhost
+      port: 5432
+      user: barboraspacilova
+      pass: password
+      dbname: postgres
+      schema: public
+
+  target: dev
