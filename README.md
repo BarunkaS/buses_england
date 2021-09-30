@@ -1,8 +1,8 @@
-# Very, very much WORK IN PROGRESS...
+# BUSES ENGLAND - Very, very much WORK IN PROGRESS...
 
 ## Quick intro
 
-Project works with open bus data from England.
+Project works with open bus data from England. Still in exploratory phase.
 
 ## Next steps
 
